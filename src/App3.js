@@ -32,7 +32,7 @@ function App3 () {
             document.getElementById('root')
       )
       );
-      */
+     
          
             }
   return (
@@ -42,4 +42,4 @@ function App3 () {
   );
   
 }
-export default App3;
+export default App3;*/
