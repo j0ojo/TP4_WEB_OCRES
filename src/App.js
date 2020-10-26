@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./Navigation";
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import Changer_Style from "./Changer_Style";
 
 
 
@@ -34,7 +35,8 @@ export class ToogleButtons extends Component
       <button className = "btn btn-primary m-2" onClick={()=>this.toggleMe('charlotte')}> Charlotte </button>
       <button className = "btn btn-secondary m-2" onClick={()=>this.toggleMe('jean')}> Jean </button>
       <button className = "btn btn-third m-2" onClick={()=>this.toggleMe('jacques')}> Jacques </button>
-    </div>
+      <button className='style' onClick={()=>Changer_Style()}>Changer de Style</button>
+      </div>
 
   <div className="infos">
     {this.state.tabType==='charlotte'&& <div>
@@ -56,6 +58,7 @@ export class ToogleButtons extends Component
     <p> Date de naissance: 02/09/1989 </p>
     <p> Actu: Il faut que j'aille à la salle de sport </p>
        </div>
+
   }
 
 
