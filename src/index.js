@@ -6,26 +6,37 @@ import './personnes.js';
 
 class Profile extends React.Component {
   
-  
-  
-  handleClick() {
-    console.log('Clicked');
-  } 
-
-  
+  onSubmit(value) {
+    console.log(value);
+  }
     render() {
     return(
 
-    <div className ="container">
-      
-          <button id="charlotte " onClick={ () => this.handleClick} value="charlotte">charlotte</button>
-          <button id="jacques" onClick={ () => this.handleClick} value="jacques">jacques</button>
-          <button id="jean" onClick={() => this.handleClick} value="jean">jean</button>
-      
+      <div>
+        <button id="charlotte" value="charlotte " onSubmit={this.onSubmit}> Charlotte</button>
+        <button id="jacques" value="jacques " onSubmit={this.onSubmit}>Jacques</button>
+        <button id="jean" value="jean " onSubmit={this.onSubmit}>Jean</button>
       </div>
     )
+    }
   }
-}
+
+
+  class Button extends React.Component {
+    onClick(event) {
+      const value = event.target.value;
+      this.props.onSubmit(value);
+    }
+  
+    render() {
+      return (
+        <button value={this.props.value} onClick={e => this.onClick(e)}>
+          {this.props.value}
+        </button>
+      );
+    }
+  }
+
 ReactDOM.render(
   <Profile />,
   document.getElementById('root')
