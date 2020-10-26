@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 
 function Charlotte() {
@@ -26,7 +26,7 @@ function Charlotte() {
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">Charlotte</h1>*/
-            <p>
+       /*     <p>
     Nom : {p1.nom}
     Prénom : {p1.prenom}
     Date de naissance : {p1.date_n}
@@ -39,4 +39,4 @@ function Charlotte() {
     </div>*/
   );
 }
-export default Charlotte;
+*/export default Charlotte;*/
