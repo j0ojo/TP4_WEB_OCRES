@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import ReactDOM from 'react-dom'
 
 
@@ -32,7 +32,7 @@ function App3 () {
             document.getElementById('root')
       )
       );
-      
+      */
          
             }
   return (
