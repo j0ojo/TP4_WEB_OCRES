@@ -1,0 +1,22 @@
+#jacques,#jean,#charlotte
+{
+    margin: 3em;
+    
+}
+.profiles
+{
+    position: relative; 
+    top: 5px; 
+    left: 50em; 
+}
+button
+{
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 1em;
+}
+img
+{
+    height: 20px;
+
+}
