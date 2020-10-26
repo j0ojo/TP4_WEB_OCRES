@@ -2,8 +2,7 @@ import React, {Component} from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./Navigation";
 import ReactDOM from 'react-dom'
-import App2 from "./App2";
-import App3 from "./App3";
+
 
 
 export class ToogleButtons extends Component
@@ -39,26 +38,23 @@ export class ToogleButtons extends Component
 
   <div className="infos">
     {this.state.tabType==='charlotte'&& <div>
-      <p> Nom: DANIER </p>
-      <p> Prenom: Charlotte</p>
+      <img id="charlotte" src="../images/charlotte.jpg" alt="ch"></img>
+      <p> Nom: DANIER  &nbsp;  Charlotte</p>
        <p>Date de naissance : 11/04/1979 </p>
-      <p> Actu: 'Je m'ennuie' </p>  </div>
+      <p> Actu: J'ai trop faim :(  </p>  </div>
     }
 
     {this.state.tabType==='jean'&& <div>
-    <p>Nom:"POLA",</p>
-    <p>Prenom:"Jean",</p>
-    <p> Date de naissance:"11/04/1979",</p>
-    <p> img:"jean",</p>
-    <p>Actu:"Hier il m'est arrivé un truc de dingue",</p></div>
+    <img id="jean" src="../images/jean.jpg" alt="je"></img>
+    <p>Nom: POLA &nbsp; Jean </p>
+    <p>Date de naissance: 11/04/1979</p>
+    <p>Actu: Hier il m'est arrivé un truc de dingue ! </p></div>
   }
     {this.state.tabType==='jacques'&& <div>
-
-    <p> Nom: "LUT",</p>
-    <p> prenom:"Jacques",</p>
-    <p> date_n:"02/09/1989",</p>
-    <p>  img:"jacques",</p>
-      <p> dernier_tweet:"J'ai faim",</p>
+    <img id="jacques"src="../images/jacques.jpg" alt="ja"></img>
+    <p> Nom: LUT &nbsp; Jacques</p>
+    <p> Date de naissance: 02/09/1989 </p>
+    <p> Actu: Il faut que j'aille à la salle de sport </p>
        </div>
   }
 

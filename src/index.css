@@ -13,28 +13,50 @@
 button
 {
 
-background-color: #4CAF50; /* Green */
+background-color: rgb(238, 181, 255);
 border-radius: 5px;
-font: italic 4em "Open Sans", sans-serif;
+font: italic 4em serif;
 color: black;
 padding: 15px 32px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 10px;
+opacity: 1;
 }
 
 .infos
 {
-font:  1em "Open Sans", sans-serif;
+font:  1em ;
+padding : 2em;
+margin: 2em;;
+font-family: serif;
 color: black;
-background-color: burlywood;
+background-color:rgb(226, 99, 243);
 border-radius: 5px;
 text-align: center;
+opacity: 0.83;
 }
 
 img
 {
-    height: 20px;
+   
+    border-radius: 30px;
 
+}
+
+#charlotte
+{
+    height:200px ;
+    width: 170px;
+}
+#jean
+{
+    height:200px ;
+    width: 150px;
+}
+#jacques
+{
+    height:200px ;
+    width: 250px;
 }
