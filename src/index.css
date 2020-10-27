@@ -60,3 +60,9 @@ img
     height:200px ;
     width: 250px;
 }
+.style
+{
+    text-align: right;
+    float: bottom;
+    float: inline-end;
+}
