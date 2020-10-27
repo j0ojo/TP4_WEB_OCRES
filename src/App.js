@@ -35,8 +35,8 @@ export class ToogleButtons extends Component
       <button className = "btn btn-primary m-2" onClick={()=>this.toggleMe('charlotte')}> Charlotte </button>
       <button className = "btn btn-secondary m-2" onClick={()=>this.toggleMe('jean')}> Jean </button>
       <button className = "btn btn-third m-2" onClick={()=>this.toggleMe('jacques')}> Jacques </button>
-      <button className='style' onClick={()=>Changer_Style()}>Changer de Style</button>
-      </div>
+      <div className='style' > <button className="align-text-bottom" onClick={()=>Changer_Style()}>Changer de Style</button> </div>
+     </div>
 
   <div className="infos">
     {this.state.tabType==='charlotte'&& <div>
